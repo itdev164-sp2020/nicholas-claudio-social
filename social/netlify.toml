@@ -1,5 +1,5 @@
 # example netlify.toml
 [build]
-  command = "gatsby build"
+  command = "gatsby develop"
   functions = "lambda" #  netlify-lambda reads this
   publish = "public"
